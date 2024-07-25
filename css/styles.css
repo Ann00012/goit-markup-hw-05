@@ -244,9 +244,6 @@ align-items: center;
   border: 1px solid #8e8f99;
   margin-bottom: 8px; 
 }
-
-
-
 .ourteam{
     background: #F4F4FD;
     padding:120px 0;
@@ -519,4 +516,58 @@ max-width: 264px;
 
 .footer-sites-svg{
     fill:#f4f4fd;
+}
+
+.footer-form-title {
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
+.footer-form {
+    margin-left: 80px;
+}
+.footer-email{
+display: flex;
+gap: 24px;
+}
+
+.footer-email-input{
+   border: 1px solid #fff;
+border-radius: 4px;
+width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: transparent;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+padding-left: 16px;
+color: #ffffff;
+
+}
+
+.footer-button{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    min-width: 165px; 
+    height: 40px; 
+     font-family: "Roboto", sans-serif;
+      font-size: 16px;
+       font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #4D5AE5;
+        border: none;
+        border-radius: 4px; 
+}
+
+.footer-button-svg{
+    margin-left: 16px;
+
 }
