@@ -644,7 +644,7 @@ margin-bottom: 16px;
 
 }
 
-.modal-window-form-cointainer{
+.modal-window-form{
     margin-bottom: 8px; 
 }
 
@@ -685,13 +685,14 @@ position: relative;
     top: 50%; 
     transform: translateY(-50%); 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
 }
 
 .modal-window-form-input-container{
     margin-bottom: 16px;
 }
 
-.modal-window-form-svg:focus{
+.modal-window-form-input .modal-window-form-svg:focus{
      fill: #4D5AE5;
 }
+
+

@@ -374,7 +374,7 @@
 Leave your contacts and we will call you back
 </p>
 <form class="modal-window-form">
-  <div class="modal-window-form-cointainer">
+  <div class="modal-field">
 <label for="user-name" class="modal-window-form-label">Name</label>
 <div class="modal-window-form-input-container">
 <input id="user-name" name="user-name" type="text" class="modal-window-form-input"/>
@@ -382,10 +382,9 @@ Leave your contacts and we will call you back
   <use href="./images/icons.svg#icon-person-black-18dp-1"> </use>
 </svg>
 </div>
-<div>
-
 </div>
-  </div>
+
+<div class="modal-field">
 <label class="modal-window-form-label">Phone</label>
 <div class="modal-window-form-input-container">
   <input id="user-name" name="user-name" type="text" class="modal-window-form-input"/>
@@ -393,6 +392,9 @@ Leave your contacts and we will call you back
   <use href="./images/icons.svg#icon-phone-black-18dp-1"> </use>
 </svg>
 </div>
+</div>
+
+<div class="modal-field">
 <label  class="modal-window-form-label"> Email</label>
 <div class="modal-window-form-input-container">
   <input id="user-name" name="user-name" type="text" class="modal-window-form-input"/>
@@ -400,18 +402,28 @@ Leave your contacts and we will call you back
   <use href="./images/icons.svg#icon-email-black-18dp-1"> </use>
 </svg>
 </div>
-<div>
+</div>
 
+<div class="modal-field">
   <label for="user-comment" class="modal-window-form-label">Comment </label>
+  <textarea name="user-comment" id="user-comment"  rows="5" class="modal-field-comment" placeholder="Text input">
+  </textarea>
+  </div>
     <div class="modal-window-form-input-container">
-  <input id="user-name" name="user-name" type="text" class="modal-window-form-input"/>
+  <input id="user-name" name="user-name" type="checkbox" value="true" class="modal-window-form-input"/>
 
+  <label for="user-privacy" class="modal-check">
+    <span class="modal-check-container">
+      <svg width="10" height="8" class="modal-check-svg">
+        <use href="./images/icons.svg#"></use>
+      </svg>
+    </span>
+    I accept the terms and conditions of the Privacy Policy
+  </label>
 </div>
-
+<button class="form-btn" type="submit">Send</button>
 </form>
-
 </div>
 </div>
-
 </body>  
 </html>
