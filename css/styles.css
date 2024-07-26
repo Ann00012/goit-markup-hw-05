@@ -618,12 +618,15 @@ padding: 72px 24px 24px 24px;
 .modal-window-button:focus{
 background-color: #404bbf; 
 border: none;
+fill: #ffffff;
 }
 
 .modal-window-svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+
 
 .modal-window-svg:hover,
 .modal-window-svg:focus {
@@ -687,4 +690,8 @@ position: relative;
 
 .modal-window-form-input-container{
     margin-bottom: 16px;
+}
+
+.modal-window-form-svg:focus{
+     fill: #4D5AE5;
 }
