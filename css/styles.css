@@ -772,3 +772,10 @@ position: relative;
 .modal-window-form-input:focus +.modal-window-form-svg{
     fill:#4d5ae5;
 }
+
+.modal-window-form-input:checked +.modal-check span{
+    border: none;
+    fill:#F4F4FD;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
