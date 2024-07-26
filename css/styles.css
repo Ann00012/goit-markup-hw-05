@@ -761,3 +761,14 @@ position: relative;
     color:#4d5ae5;
 }
 
+.modal-window-form-input-container{
+    margin-bottom:24px;
+}
+
+.modal-field-com{ 
+    margin-bottom:16px;
+}
+
+.modal-window-form-input:focus +.modal-window-form-svg{
+    fill:#4d5ae5;
+}
