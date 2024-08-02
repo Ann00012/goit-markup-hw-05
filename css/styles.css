@@ -625,7 +625,7 @@ border: none;
 fill: #ffffff;
 }
 
-.modal-window-button:focus {
+.modal-window-button.is-open:focus {
     background-color: #404bbf; 
 border: none;
 fill: #ffffff;
