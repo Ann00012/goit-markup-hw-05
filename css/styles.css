@@ -625,10 +625,15 @@ border: none;
 fill: #ffffff;
 }
 
-.modal-window-button.is-open:focus {
+.modal-window-button:focus {
     background-color: #404bbf; 
 border: none;
 fill: #ffffff;
+}
+
+.modal-window-button:hover .is-open,
+.modal-window-button:focus .is-open{
+    fill:#ffffff;
 }
 
 .modal-window-svg{
