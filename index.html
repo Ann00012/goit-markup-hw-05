@@ -362,9 +362,11 @@
     </div>
 </footer> 
 
-<div class="modal is-open">
+
+
+<div class="modal" data-modal>
 <div class="modal-window">
-<button type="button" class="modal-window-button">
+<button type="button is open" class="modal-window-button" data-modal-close>
   <svg width="8" height="8" class="modal-window-svg">
   <use href="./images/icons.svg#icon-close-black-18dp-2-1">
   </use>
@@ -373,11 +375,11 @@
 <p class="modal-window-title">
 Leave your contacts and we will call you back
 </p>
-<form class="modal-window-form">
+<form class="modal-window-form" autocomplete="off" novalidate>
   <div class="modal-field">
 <label for="user-name" class="modal-window-form-label">Name</label>
 <div class="modal-window-form-input-container">
-<input id="user-name" name="user-name" type="text" class="modal-window-form-input"/>
+<input id="user-name" name="user-name" type="text" class="modal-window-form-input" placeholder="" required/>
 <svg width="18" height="24" class="modal-window-form-svg"> 
   <use href="./images/icons.svg#icon-person-black-18dp-1"> </use>
 </svg>
@@ -387,7 +389,7 @@ Leave your contacts and we will call you back
 <div class="modal-field">
 <label class="modal-window-form-label" for="user-phone">Phone</label>
 <div class="modal-window-form-input-container">
-  <input id="user-phone" name="user-phone" type="tel" class="modal-window-form-input"/>
+  <input id="user-phone" name="user-phone" type="tel" class="modal-window-form-input" placeholder="" required/>
 <svg width="18" height="24" class="modal-window-form-svg"> 
   <use href="./images/icons.svg#icon-phone-black-18dp-1"> </use>
 </svg>
@@ -425,5 +427,6 @@ Leave your contacts and we will call you back
 </form>
 </div>
 </div>
+<script src="./js/modal.js"></script>
 </body>  
 </html>
