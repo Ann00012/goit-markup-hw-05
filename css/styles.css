@@ -631,7 +631,7 @@ border: none;
 fill: #ffffff;
 }
 
-.modal-window-button.is-open:focus .modal-window-svg{
+.data-modal-close:focus .modal-window-svg{
     fill:#ffffff;
 }
 
